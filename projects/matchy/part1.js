@@ -2,7 +2,7 @@
 
 /*
 var animal = {
-    species: "Byrd",
+    species: "Duck",
     tagline: "Tweet",
     noise: "noll";
     
@@ -13,19 +13,19 @@ var animal = {
 
 // 1A
 var animal = {}                         // 1 Object Literal notation
-animal.species = 'Byrd';                // 2 Dot notation on object assigns key && prop value
+animal.species = 'Duck';                // 2 Dot notation on object assigns key && prop value
 console.log(animal.species);            // 3 logs object to console
-animal["tagline"] = "Byrd with a 'Y'";  // 4 bracket notation assigns ["key"] && prop value
+animal["tagline"] = "Afflack";  // 4 bracket notation assigns ["key"] && prop value
 console.log(animal["tagline"]);         // 5 logs object property/value
-animal["noise"] = 'noll';               // 6 brack notation assigns ["key"] && prop value
+animal["noise"] = null;               // 6 brack notation assigns ["key"] && prop value
 console.log(animal);                    // 7 logs object to console
 
 // 1B
 var noiseArray = [];                    // 1 Array literal notation
-noiseArray[0] = 'Tweat!';               // 2 Brackets assign indexof array && prop value
-noiseArray.push('Tweet!');              // 3 .push() method assigns value to the end of an array   
-noiseArray.unshift('Tweet!');           // 4 .unshift() method assigns value to the beginning of an array && returns length of new array
-noiseArray[3] = 'Tweat!';               // 5 assigns string to the third (fourth) indexof array
+noiseArray[0] = 'quack';               // 2 Brackets assign indexof array && prop value
+noiseArray.push('honk');              // 3 .push() method assigns value to the end of an array   
+noiseArray.unshift('sneeze');           // 4 .unshift() method assigns value to the beginning of an array && returns length of new array
+noiseArray[3] = 'growl';               // 5 assigns string to the third (fourth) indexof array
 console.log(noiseArray.length);         // 6 logs length of array to console
 console.log(noiseArray.indexOf());      // 7 
 console.log(noiseArray);                // 8 logs array to console

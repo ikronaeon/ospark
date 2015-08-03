@@ -3,7 +3,7 @@
 
 // 2C
 var animals = [];                          // 1 Array Literal   
-animals.push(animal);                      // 2 .push() method adds object to indexof[0] to variable array with current idexof[-1]
+animals.push(animal);                      // 2 .push() method adds object to end of indexof[0] to variable array with current idexof[-1]
 var twitter = animals[0];                  // 3 Assigns variable to array indexof[0]
 console.log(twitter);                      // 4 logs variable object to console
 console.log(Object.keys(twitter));         // 5 logs variable array object keys to console
