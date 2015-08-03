@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>The Application of Knowledge</title>
+        <link href='css/style.css' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div id='all-contents'>
+            <nav>
+                <header>ikronaeon</header>
+                <ul>
+                    <li><a href='index.html'>Home</a></li>
+                    <li><a href='portfolio.html'>Portfolio</a></li>
+                </ul>
+            </nav>
+            <main></main>
+        </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script>
+            $(document).ready(initialize);
+            
+                function initialize() {
+                    // var hash; 
+                    var template;
+                    $('nav').load('nav.html');
+                    // hash = window.location.hash;
+                    template = window.location.hash.replace("#", "");
+                    if(template === "") {template = "home";} loadTemplate(template);
+                }
+                
+                $(window).on('hashchange',function() { 
+                    loadTemplate(location.hash.slice(1));
+                });
+                
+                function loadTemplate(template) {
+                    var template; 
+                    
+                    $('main').load(template + '.html');
+                }
+                
+        </script>
+    </body>
+</html>
