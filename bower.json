@@ -1,0 +1,26 @@
+{
+  "name": "ospark",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ikronaeon/ospark",
+  "authors": [
+    "Tyler Byrd <ikronaeon@gmail.com>"
+  ],
+  "description": "My portfolio",
+  "main": "index.html",
+  "keywords": [
+    "bower",
+    "jquery",
+    "ospark"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
